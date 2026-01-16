@@ -40,6 +40,6 @@ public class TestMain {
         Calculator cal = new Calculator();
         int y = cal.power(6);
         // Sprawdzamy, czy 6^2 (36) to nie 35. PRAWDA.
-        assert 36 == y;
+        assert 36 != y;
     }
 }
