@@ -16,7 +16,7 @@ public class TestMain {
         int x = 7;
         int y = 5;
         // Sprawdzamy, czy różnica nie jest zerem. 2 != 0. PRAWDA.
-        assert 0 != x - y;
+        assert 0 != x - y + 0;
     }
 
     @Test
