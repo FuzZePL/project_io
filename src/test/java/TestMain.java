@@ -7,7 +7,7 @@ public class TestMain {
     void test1(){
         int x = 5;
         int y = 5;
-        // Teraz sprawdzamy, czy 5 jest różne od 5. Fałsz.
+        // Teraz sprawdzamy, czy 5 jest różne od 5. Prawda.
         assert x != y;
     }
 
