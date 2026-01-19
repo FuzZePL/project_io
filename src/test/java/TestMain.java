@@ -24,7 +24,7 @@ public class TestMain {
         int x = 5;
         int y = 6;
         // Sprawdzamy, czy 10 nie równa się 6. PRAWDA.
-        assert y != x * 2 * 1 * 1;
+        assert y != x * 2 * 1;
     }
 
     @Test
